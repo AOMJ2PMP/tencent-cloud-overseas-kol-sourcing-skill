@@ -1,0 +1,100 @@
+{
+  "campaign": {
+    "name": "TencentDB Agent Memory creator test",
+    "currency": "RMB",
+    "totalBudget": 65000,
+    "reservePct": 0.15,
+    "fixedCosts": 0,
+    "minCreators": 2,
+    "maxCreators": 2
+  },
+  "candidates": [
+    {
+      "name": "Developer Tutorial A",
+      "role": "RAG and vector database educator",
+      "platforms": ["YouTube", "X"],
+      "hardGates": {
+        "platform": true,
+        "language": true,
+        "geography": true,
+        "contentFit": true,
+        "budget": true,
+        "timing": true,
+        "brandSafety": true
+      },
+      "scores": {
+        "productContentFit": 4.8,
+        "audienceMarketFit": 4.2,
+        "performanceQuality": 3.8,
+        "collaborationLikelihood": 4.0,
+        "budgetFit": 4.0,
+        "brandSafetyDelivery": 4.2
+      },
+      "quote": {
+        "currency": "RMB",
+        "low": 20000,
+        "base": 27000,
+        "high": 34000
+      },
+      "evidenceConfidence": "medium"
+    },
+    {
+      "name": "Agent Engineering B",
+      "role": "Agent and coding workflow educator",
+      "platforms": ["YouTube", "X"],
+      "hardGates": {
+        "platform": true,
+        "language": true,
+        "geography": true,
+        "contentFit": true,
+        "budget": true,
+        "timing": true,
+        "brandSafety": true
+      },
+      "scores": {
+        "productContentFit": 4.6,
+        "audienceMarketFit": 4.0,
+        "performanceQuality": 3.6,
+        "collaborationLikelihood": 3.8,
+        "budgetFit": 3.5,
+        "brandSafetyDelivery": 4.0
+      },
+      "quote": {
+        "currency": "RMB",
+        "low": 20000,
+        "base": 28000,
+        "high": 36000
+      },
+      "evidenceConfidence": "medium"
+    },
+    {
+      "name": "Global Mega Tech C",
+      "role": "General technology reach",
+      "platforms": ["YouTube"],
+      "hardGates": {
+        "platform": true,
+        "language": true,
+        "geography": true,
+        "contentFit": false,
+        "budget": false,
+        "timing": false,
+        "brandSafety": true
+      },
+      "scores": {
+        "productContentFit": 2.0,
+        "audienceMarketFit": 3.0,
+        "performanceQuality": 5.0,
+        "collaborationLikelihood": 1.5,
+        "budgetFit": 0.5,
+        "brandSafetyDelivery": 4.0
+      },
+      "quote": {
+        "currency": "RMB",
+        "low": 200000,
+        "base": 300000,
+        "high": 500000
+      },
+      "evidenceConfidence": "low"
+    }
+  ]
+}
